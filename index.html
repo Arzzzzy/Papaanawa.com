@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Papaanawa.com</title>
+	<link rel="icon" href="red-flag (1).png">
+        <meta charset="UTF-8">
+    <link rel="stylesheet" href="PicWithFriends.css">
+	<link rel="stylesheet" href="Team.css">
+	<link rel="stylesheet" href="login.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<div>
+	
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+	<center><div id="message"></div></center>
+
+	<div class="profile">
+		<img id="profile-pic" src="silhoutte.png" alt="Profile Picture">
+	</div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+	  <button class="submit" type="button" onclick="showMessage()">Login</button>
+
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+	  </div>
+
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <!--<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button> 
+      <span class="psw">Forgot <a href="#">password?</a></span>-->
+    </div>
+  </form>
+</div>
+<!--JAVASCCRIPT-->
+<script src="message.js"></script>
+
+</div>
+
+<div id="popup">
+	<span id="close">&times;</span>
+	<h2>Welcome!</h2>
+	<p>Thank you for visiting our website.</p>
+	<p>Sign in to see hidden description/text, download and upload photo.</p>
+  </div>
+
+  <!--JAVASCCRIPT-->
+  <script src="message.js"></script>
+
+<body>
+	<header>
+		<div>
+			<a id="logo" href="#">
+				<span id="logo-text">Papaanawa</span>
+			  </a>
+		<!--<a id="logo" href="#">A DAY OF TRIP</a>-->
+	   <nav>
+		 <ul>
+		   <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+		   <li><a href="#Apayao"><i class="fa fa-picture-o"></i> Album</a></li>
+		   <li><a href="#credits-bottom"><i class="fa fa-info-circle"></i> About</a></li>
+		   <li class="profile-top-right"><a onclick="document.getElementById('id01').style.display='block'" id="signin-disappear" style="width:auto; cursor: pointer;"><i class="fa fa-user-circle"></i> Login</a></li>
+
+		 </ul>
+	   </nav>
+	   </div>
+	   <br>
+	 </header>
+	<div class="Profile">
+		<!--insert picture ditoy nga banda-->
+
+	</div>
+
+	<div class="about-section" >
+		<h1>"A day spent with friends is always a day well spent"</h1>
+    
+
+    <!--SLIDESHOW-->
+	<center><div class="slideshow-container">
+		<div class="Slides fade">
+		  <img src="images/Apayao.jpg" style="width: 80%"/>
+		  <div class="text">Solsona-Apayao Road</div>
+		</div>
+		<div class="Slides fade">
+		  <img src="images/Saud.jpg" style="width: 80%"/>
+		  <div class="text">Saud Beach</div>
+		</div>
+		<div class="Slides fade">
+		  <img src="images/Saud (2).jpg" style="width: 80%"/>
+		  <div class="text">Saud Beach</div>
+		</div>
+		<div class="Slides fade">
+		  <img src="images/Fort (2).jpg" style="width: 80%"/>
+		  <div class="text">Fort Ilocandia</div>
+		</div>
+		<div class="Slides fade">
+		  <img src="images/Apayao (4).jpg" style="width: 80%"/>
+		  <div class="text">Solsona-Apayao Road</div>
+		</div>
+		<div class="dots" style="text-align: center"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+	  </div>
+	<script src="slide.js"></script>
+	<br>
+	<div class="about-section" id="paragraph">
+		<p class="long-letter">Traveling is a great way to explore the world and create lasting memories. For a group of friends who love to travel, it's an opportunity to share in new experiences and create bonds that will last a lifetime. When this group comes together, they bring their different perspectives, interests, and personalities, making for an exciting and diverse trip.
+			Traveling as a team allows for everyone to learn and grow from one another. They learn to embrace new challenges, push past their comfort zones, and make the most of each moment. As they travel, this group of friends creates lifelong memories that they will cherish forever. They share stories, laughter, and moments of pure joy that will bring them back to these adventures time and time again. For this team of friends, traveling is more than just a vacation, it's a chance to build connections that will last a lifetime.
+			</p>
+    </div>
+
+	<div>
+		<button class="download" id="uploadButton" onclick="showmessage2()">
+			<a href=""></a>
+			<i class="fa fa-upload"></i> Upload Pictures
+		</button>
+		<button class="download" onclick="downloadPictures()">
+			<i class="fa fa-download"></i> Download Pictures
+		</button>
+		<script src="message.js"></script>
+	</div>
+  </center>
+    <!--PICTURES-->
+	</div>
+	<div class="Title" id="Apayao">
+		<h3>Solsona-Apayao Road [01/09/2023]</h3>
+	</div></div>
+	<div class="description" id="hiddentext">
+		<p>Last January 9, 2023, we embarked on a thrilling journey along the scenic Apayao road. Our destination was a picturesque mountain that promised breathtaking views and unforgettable experiences. We joyfully snapped pictures of every moment, capturing the stunning natural beauty of the region and creating lasting memories of our adventure.</p>
+	</div>
+		<center><div class="map">
+		<hr>
+		<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42727.402642202396!2d120.86229513341914!3d18.092502044822428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x338f276d9c758e15%3A0x8dce4e9acb529e!2sView%20in%20Solsona%2C%20Ilocos%20Norte%20-%20Apayao%20Road!5e1!3m2!1sen!2sph!4v1677301141979!5m2!1sen!2sph" width="380" height="200" style="border:10;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+	</center>
+	</div>
+
+	<!--APAYAO PICTURES-->
+	<div class="container">
+		<div class="image">
+			<img src="images/Apayao.jpg">
+			<div class="overlay">
+			</div>
+		</div>
+		<div class="image">
+			<img src="images/Apayao (2).jpg">
+			<div class="overlay">
+			</div>
+		</div>
+		<div class="image">
+			<img src="images/Apayao (3).jpg">
+			<div class="overlay">
+			</div>
+		</div>
+		<div class="image">
+			<img src="images/Apayao (4).jpg">
+			<div class="overlay">
+			</div>
+		</div>
+		<div class="image">
+			<img src="images/Apayao (5).jpg">
+			<div class="overlay">
+			</div>
+		</div>
+		<div class="image">
+			<img src="images/Apayao (6).jpg">
+			<div class="overlay">
+			</div>
+        </div>
+        <div class="image">
+			<img src="images/Apayao (7).jpg">
+			<div class="overlay">
+			</div>
+        </div>
+        <div class="image">
+			<img src="images/Apayao (8).jpg">
+			<div class="overlay">
+			</div>
+        </div>
+	</div>
+	<div class="Title-2">
+		<h3>Saud Beach Pagudpud [01/05/2023]</h3>
+	</div>
+	<div class="description" id="hiddentext2">
+		<p>As we travel to Saud Beach in Pagudpud, we will be surrounded by stunning views of the Philippine countryside. Upon arriving at the beach, we will be greeted by crystal clear waters and pristine white sand. Swimming in the refreshing waters of Saud Beach will be a rejuvenating and memorable experience.</p>
+	</div>
+    <center><div class="map">
+		<hr>
+		<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.7026875125384!2d120.7854246501929!3d18.582673450740398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3389214be47d0d4f%3A0x2f66cb7b3af33a1b!2sSaud%20Beach!5e1!3m2!1sen!2sph!4v1677301066141!5m2!1sen!2sph" width="380" height="200" style="border:10;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+	
+	</div>
+
+	<!--SAUD PICTURES-->
+	<div class="container">
+		<div class="image">
+			<img src="images/Saud.jpg">
+			<div class="overlay">
+			</div>
+		</div>
+		<div class="image">
+			<img src="images/Saud (2).jpg">
+			<div class="overlay">
+			</div>
+		</div>
+		<div class="image">
+			<img src="images/Saud (3).jpg">
+			<div class="overlay">
+			</div>
+		</div>
+		<div class="image">
+			<img src="images/Saud (4).jpg">
+			<div class="overlay">
+			</div>
+		</div>
+		<!--
+		<div class="image">
+			<img src="">
+			<div class="overlay">
+				Click me
+			</div>
+		</div>
+		<div class="image">
+			<img src="">
+			<div class="overlay">
+				Click me
+			</div>
+        </div>
+        <div class="image">
+			<img src="">
+			<div class="overlay">
+				Click me
+			</div>
+        </div>
+        <div class="image">
+			<img src="">
+			<div class="overlay">
+				Click me
+			</div>
+        </div>
+		-->
+	</div>
+	<div class="Title-2">
+		<h3>Fort Ilocandia Resort [12/29/2022]</h3>
+	</div>
+	<div class="description" id="hiddentext3">
+		<p>I treated my friends to Fort Ilocandia and it was the perfect way to celebrate my birthday. The highlight of our trip was swimming in the beautiful pool surrounded by lush greenery and a stunning view of the ocean. We enjoyed a relaxing and fun-filled day as we celebrated my special day in style.</p>
+	</div>
+    <center><div class="map">
+		<hr>
+		<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.74272382409!2d120.52181167761913!3d18.15688107143424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x338eb89b6661a379%3A0xcc99dccc0051d2d4!2sFort%20Ilocandia%20Resort%20Hotel!5e1!3m2!1sen!2sph!4v1677306512183!5m2!1sen!2sph" width="380" height="200" style="border:10;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+	
+	</div>
+
+	<!--FORT PICTURES-->
+
+	<div class="container">
+		<div class="image">
+			<img src="images/Fort.jpg">
+			<div class="overlay">
+			</div>
+		</div>
+		<div class="image">
+			<img src="images/Fort (2).jpg">
+			<div class="overlay">
+			</div>
+		</div>
+		<div class="image">
+			<img src="images/Fort (3).jpg">
+			<div class="overlay">
+			</div>
+		</div>
+		<div class="image">
+			<img src="images/Fort (4).jpg">
+			<div class="overlay">
+			</div>
+		</div>
+		<div class="image">
+			<img src="images/Fort (5).jpg">
+			<div class="overlay">
+			</div>
+		</div>
+		<div class="image">
+			<img src="images/Fort (6).jpg">
+			<div class="overlay">
+			</div>
+        </div>
+        <div class="image">
+			<img src="images/Fort (7).jpg">
+			<div class="overlay">
+			</div>
+        </div>
+        <div class="image">
+			<img src="images/Fort (8).jpg">
+			<div class="overlay">
+			</div>
+        </div>
+	</div>
+	<div class="Title-2">
+		<h3>Burgos-Bangui [02/24/2023]</h3>
+	</div>
+	<div class="description" id="hiddentext4">
+		<p>Traveling with friends is an exciting and memorable experience, but it can also be challenging when conflicts arise. On our recent trip to Bangui, we faced a dilemma when some of our friends were sulking and not participating in the activities. It dampened the mood and created a rift.
+			Despite the initial setbacks, we tried our best to make the most out of the trip. We visited the famous Bangui Wind Farm, and the sight of towering wind turbines was breathtaking. We also explored the Kapurpurawan Rock Formation and were in awe of its unique natural beauty.
+			In the end, while our trip to Bangui was not as smooth as we hoped, we learned valuable lessons about the importance of communication and understanding in a group setting. It reminded us that conflicts are inevitable, but how we handle them is what makes or breaks the experience. Despite the challenges, we made unforgettable memories and strengthened our friendship, and for that, we are grateful.</p>
+	</div>
+    <div class="map">
+		<hr>
+		<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4576.285304387797!2d120.68893062773154!3d18.52013880989866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3389311b37498575%3A0xa9fb39b47582d918!2s18%20Degrees%20North%20Camping%20%7C%20Cafe%20and%20Diner!5e1!3m2!1sen!2sph!4v1677926188929!5m2!1sen!2sph" width="380" height="200" style="border:10;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+	
+	</div>
+    <!--BANGUI PICTURES-->
+	<div class="container">
+		<div class="image">
+			<img src="images/bangui.jpg">
+			<div class="overlay">
+			</div>
+		</div>
+		<div class="image">
+			<img src="images/bangui (2).jpg">
+			<div class="overlay">
+			</div>
+		</div>
+		
+		<div class="image">
+			<img src="images/bangui (3).JPG">
+			<div class="overlay">
+			</div>
+		</div>
+		<div class="image">
+			<img src="images/bangui (4).JPG">
+			<div class="overlay">
+			</div>
+		</div>
+	</div>
+
+     <!--pinakababa-->
+	<div class="box">
+		<div class="card">
+		  <div class="imgBx">
+			  <img src="MeWithFrame.jpg">
+		  </div>
+		  <div class="details">
+			  <h2><a href="https://arzzzzy.github.io/arzadonchristian.com/">Christian Andrei Arzadon</a><br><span>Creator</span></h2>
+		  </div>
+		</div> 
+		<div class="text-right">
+			<p> I created this website as a fun way to store and showcase our memories and pictures with my friends. It's a great way to relive the fun times we've had and share them with others. With this website, we can easily access and organize our photos and memories, and it's a great way to stay connected even when we're not together. It also serves as a platform for us to plan future trips and events, making it a valuable tool for our group. Overall, this website is a great way for us to preserve our memories and keep our friendships strong.</p>
+		</div>
+	</div>
+   <div class="mail-me">
+	<h3>I welcome comments, suggestions and corrections.</h3>
+	<a href="mailto:arzadonchristian@protonmail.com">arzadonchristian@protonmail.com</a>
+   </div>
+
+	<div class="credits-bottom" id="credits-bottom">
+		<h2>Copyright &copy; 2023 Papaanawa | All rights reserved</h2>
+	</div>
+	
+</body>
+</html>
